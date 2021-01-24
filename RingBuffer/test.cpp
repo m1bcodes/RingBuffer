@@ -43,6 +43,7 @@ TEST(RingBufferTest, Insert) {
 	r.clear();
 	EXPECT_EQ(r.size(), 0);
 	EXPECT_TRUE(r.empty());
+	EXPECT_TRUE(false);
 }
 
 TEST(RingBufferTest, Read) {
